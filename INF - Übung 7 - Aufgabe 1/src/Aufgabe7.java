@@ -33,6 +33,7 @@ public class Aufgabe7 {
 		
 		for (int i = 0; i < noOfItems; i++) {
 			SimpleIO.println(numbers[i]);
+			SimpleIO.println("Hallo Test");
 		}
 
 	}
