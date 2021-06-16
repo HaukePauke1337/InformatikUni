@@ -1,6 +1,6 @@
 public class QuarterItem {
-	private int x;
-	private int y;
+	protected int x;
+	protected int y;
 	
 	public QuarterItem(int nX, int nY) {
 		x = nX;
