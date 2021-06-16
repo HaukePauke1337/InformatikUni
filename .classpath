@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="INF - Übung 7 - Aufgabe 1/src"/>
+	<classpathentry kind="src" path="INF_Uebung08_2_Aufgabe2_Vorgabe.zip_expanded/Aufgabe2_Vorgabe/src"/>
+	<classpathentry kind="src" path="meinerstes Programm/src"/>
+	<classpathentry kind="src" path="SimpleO/src"/>
+	<classpathentry kind="src" path="uebung3 - Kopie/src"/>
+	<classpathentry kind="src" path="uebung3/src"/>
+	<classpathentry kind="src" path="uebung4_b/src"/>
+	<classpathentry kind="src" path="uebung4/src"/>
+	<classpathentry kind="src" path="uebung5/src"/>
+	<classpathentry kind="src" path="uebung6/src"/>
+	<classpathentry kind="output" path="INF - Übung 7 - Aufgabe 1/bin"/>
+</classpath>
