@@ -5,20 +5,24 @@ public class MainClass {
 		aQuarter.addItem(new House (10, 80, 100, 50, 100000, "Bergweg 23"));
 		aQuarter.addItem(new Tree(144, 261));
 		
-		SimpleIO.println("Preis des Stadtteils: " + aQuarter.getPrice());
+		
 		
 		
 		Road aRoad = new Road(50, 100);
+		aQuarter.addItem(aRoad);
+		StreetLight aLight = new StreetLight(100, 100, 100, 200);
 		
 		aRoad.addPoint(110, 180);
 		aRoad.addPoint(250, 150);
 		aRoad.addPoint(320, 220);
 		aRoad.addPoint(400, 220);
 		
-		aRoad.print();
+		aRoad.println();
+		aLight.println();
 		
-		aRoad.getLength();
 		
+		
+		SimpleIO.println("Preis des Stadtteils: " + aQuarter.getPrice());
 		
 		
 		
