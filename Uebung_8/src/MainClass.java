@@ -10,18 +10,16 @@ public class MainClass {
 		
 		Road aRoad = new Road(50, 100);
 		aQuarter.addItem(aRoad);
-		StreetLight aLight = new StreetLight(100, 100, 100, 200);
 		
+			
 		aRoad.addPoint(110, 180);
 		aRoad.addPoint(250, 150);
 		aRoad.addPoint(320, 220);
 		aRoad.addPoint(400, 220);
 		
+		
+		
 		aRoad.println();
-		aLight.println();
-		
-		
-		
 		SimpleIO.println("Preis des Stadtteils: " + aQuarter.getPrice());
 		
 		
